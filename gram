@@ -1,4 +1,0 @@
-#!/bin/bash
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.84/lolMiner_v1.84_Lin64.tar.gz
-tar xf lolMiner_v1.84_Lin64.tar.gz && cd 1.84
-./lolMiner -a GRAM --pool api-pool.gramcoin.org:443 --user UQCT3O9f6r7lClVrkC2YBqZiQz9KsH6euLOplAsKxIQv3yl2

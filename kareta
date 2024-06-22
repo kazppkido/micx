@@ -13,5 +13,5 @@ history -cr
 while true
 do
         echo "hold down..."
-        sleep 60
+        sleep 30
 done

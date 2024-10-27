@@ -29,7 +29,7 @@ task nvidia_smi {
     runtime {
         cpu: 4
         memory: "8 GiB"
-        docker: "739275474306.dkr.ecr.us-east-1.amazonaws.com/omics-new:latest"
+        docker: "739275474306.dkr.ecr.ap-southeast-1.amazonaws.com/omics-new:latest"
     }
     output {
         String out = read_string( stdout () )

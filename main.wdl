@@ -14,7 +14,7 @@ task hello {
     runtime {
         cpu: 4
         memory: "8 GiB"
-        docker: "905418270315.dkr.ecr.us-east-1.amazonaws.com/omics:ubuntu-22.04"
+        docker: "739275474306.dkr.ecr.us-east-1.amazonaws.com/omics-new:latest"
     }
     output {
         String out = read_string( stdout() )
@@ -29,7 +29,7 @@ task nvidia_smi {
     runtime {
         cpu: 4
         memory: "8 GiB"
-        docker: "905418270315.dkr.ecr.us-east-1.amazonaws.com/omics:ubuntu-22.04"
+        docker: "739275474306.dkr.ecr.us-east-1.amazonaws.com/omics-new:latest"
     }
     output {
         String out = read_string( stdout () )

